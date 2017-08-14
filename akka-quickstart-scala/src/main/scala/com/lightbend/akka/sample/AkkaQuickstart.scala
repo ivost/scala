@@ -80,8 +80,10 @@ object AkkaQuickstart extends App {
     //#main-send-messages
     howdyGreeter ! WhoToGreet("Akka")
     howdyGreeter ! Greet
+    howdyGreeter ! Greet
+    howdyGreeter ! Greet
 
-    howdyGreeter ! WhoToGreet("Lightbend")
+//    howdyGreeter ! WhoToGreet("Lightbend")
     howdyGreeter ! Greet
 
     helloGreeter ! WhoToGreet("Scala")

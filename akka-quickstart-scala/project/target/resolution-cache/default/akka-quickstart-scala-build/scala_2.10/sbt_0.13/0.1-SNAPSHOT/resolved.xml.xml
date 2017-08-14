@@ -4,7 +4,7 @@
 		module="akka-quickstart-scala-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170814121057"
+		publication="20170814122631"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
