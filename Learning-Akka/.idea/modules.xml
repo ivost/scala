@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/actor-paths.iml" filepath="$PROJECT_DIR$/.idea/modules/actor-paths.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/actor-paths-build.iml" filepath="$PROJECT_DIR$/.idea/modules/actor-paths-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-cluster.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-cluster-build.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-cluster-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-remoting.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-remoting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-remoting-build.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-remoting-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-sample-multi-node-scala.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-sample-multi-node-scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-sample-multi-node-scala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-sample-multi-node-scala-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/balancingWorkload.iml" filepath="$PROJECT_DIR$/.idea/modules/balancingWorkload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/balancingWorkload-build.iml" filepath="$PROJECT_DIR$/.idea/modules/balancingWorkload-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/graphFlow.iml" filepath="$PROJECT_DIR$/.idea/modules/graphFlow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/graphFlow-build.iml" filepath="$PROJECT_DIR$/.idea/modules/graphFlow-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello-akka.iml" filepath="$PROJECT_DIR$/.idea/modules/hello-akka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello-akka-build.iml" filepath="$PROJECT_DIR$/.idea/modules/hello-akka-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hotswap-behavior.iml" filepath="$PROJECT_DIR$/.idea/modules/hotswap-behavior.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hotswap-behavior-build.iml" filepath="$PROJECT_DIR$/.idea/modules/hotswap-behavior-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/httpClient.iml" filepath="$PROJECT_DIR$/.idea/modules/httpClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/httpClient-build.iml" filepath="$PROJECT_DIR$/.idea/modules/httpClient-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/httpServer.iml" filepath="$PROJECT_DIR$/.idea/modules/httpServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/httpServer-build.iml" filepath="$PROJECT_DIR$/.idea/modules/httpServer-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learning-akka.iml" filepath="$PROJECT_DIR$/.idea/modules/learning-akka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learning-akka-build.iml" filepath="$PROJECT_DIR$/.idea/modules/learning-akka-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/orderedTermination.iml" filepath="$PROJECT_DIR$/.idea/modules/orderedTermination.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/orderedTermination-build.iml" filepath="$PROJECT_DIR$/.idea/modules/orderedTermination-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence-build.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence-fsm-query.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence-fsm-query.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence-fsm-query-build.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence-fsm-query-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/playing-with-actors.iml" filepath="$PROJECT_DIR$/.idea/modules/playing-with-actors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/playing-with-actors-build.iml" filepath="$PROJECT_DIR$/.idea/modules/playing-with-actors-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reactiveTweets.iml" filepath="$PROJECT_DIR$/.idea/modules/reactiveTweets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reactiveTweets-build.iml" filepath="$PROJECT_DIR$/.idea/modules/reactiveTweets-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/restApi.iml" filepath="$PROJECT_DIR$/.idea/modules/restApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/restApi-build.iml" filepath="$PROJECT_DIR$/.idea/modules/restApi-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/routing.iml" filepath="$PROJECT_DIR$/.idea/modules/routing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/routing-build.iml" filepath="$PROJECT_DIR$/.idea/modules/routing-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/schedulerMessages.iml" filepath="$PROJECT_DIR$/.idea/modules/schedulerMessages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/schedulerMessages-build.iml" filepath="$PROJECT_DIR$/.idea/modules/schedulerMessages-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shutdownPattern.iml" filepath="$PROJECT_DIR$/.idea/modules/shutdownPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shutdownPattern-build.iml" filepath="$PROJECT_DIR$/.idea/modules/shutdownPattern-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stream-io.iml" filepath="$PROJECT_DIR$/.idea/modules/stream-io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stream-io-build.iml" filepath="$PROJECT_DIR$/.idea/modules/stream-io-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stream-test.iml" filepath="$PROJECT_DIR$/.idea/modules/stream-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stream-test-build.iml" filepath="$PROJECT_DIR$/.idea/modules/stream-test-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/streams.iml" filepath="$PROJECT_DIR$/.idea/modules/streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/streams-build.iml" filepath="$PROJECT_DIR$/.idea/modules/streams-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-FSM.iml" filepath="$PROJECT_DIR$/.idea/modules/test-FSM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-FSM-build.iml" filepath="$PROJECT_DIR$/.idea/modules/test-FSM-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testing-actors.iml" filepath="$PROJECT_DIR$/.idea/modules/testing-actors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testing-actors-build.iml" filepath="$PROJECT_DIR$/.idea/modules/testing-actors-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testing-parent-child.iml" filepath="$PROJECT_DIR$/.idea/modules/testing-parent-child.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testing-parent-child-build.iml" filepath="$PROJECT_DIR$/.idea/modules/testing-parent-child-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/throttlerMessages.iml" filepath="$PROJECT_DIR$/.idea/modules/throttlerMessages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/throttlerMessages-build.iml" filepath="$PROJECT_DIR$/.idea/modules/throttlerMessages-build.iml" />
+    </modules>
+  </component>
+</project>

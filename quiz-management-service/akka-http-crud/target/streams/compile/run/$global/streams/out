@@ -1,0 +1,32 @@
+[0m[[0minfo[0m] [0mRunning com.danielasfregola.quiz.management.Main [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/github/scala/quiz-management-service/akka-http-crud/target/scala-2.11/classes[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.9.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/jars/akka-http-experimental_2.11-2.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/com.typesafe.akka/akka-http-core-experimental_2.11/jars/akka-http-core-experimental_2.11-2.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/com.typesafe.akka/akka-parsing-experimental_2.11/jars/akka-parsing-experimental_2.11-2.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/com.typesafe.akka/akka-stream-experimental_2.11/jars/akka-stream-experimental_2.11-2.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.12.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/jars/ssl-config-akka_2.11-0.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/com.typesafe/ssl-config-core_2.11/jars/ssl-config-core_2.11-0.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.6.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/org.json4s/json4s-native_2.11/jars/json4s-native_2.11-3.2.11.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/org.json4s/json4s-ext_2.11/jars/json4s-ext_2.11-3.2.11.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.6.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/de.heikoseeberger/akka-http-json4s_2.11/jars/akka-http-json4s_2.11-1.4.2.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/org.json4s/json4s-core_2.11/jars/json4s-core_2.11-3.3.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/org.json4s/json4s-ast_2.11/jars/json4s-ast_2.11-3.3.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/org.json4s/json4s-scalap_2.11/jars/json4s-scalap_2.11-3.3.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/com.thoughtworks.paranamer/paranamer/bundles/paranamer-2.8.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/stoyaiv/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.5.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread quiz-management-service-akka.actor.default-dispatcher-4 to terminate.[0m

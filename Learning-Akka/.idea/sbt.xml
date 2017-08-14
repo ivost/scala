@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="jdk" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/actor-paths" />
+            <option value="$PROJECT_DIR$/actor-paths/project" />
+            <option value="$PROJECT_DIR$/akka-cluster" />
+            <option value="$PROJECT_DIR$/akka-cluster/project" />
+            <option value="$PROJECT_DIR$/akka-http-client-side-api" />
+            <option value="$PROJECT_DIR$/akka-http-client-side-api/project" />
+            <option value="$PROJECT_DIR$/akka-http-server-side-api" />
+            <option value="$PROJECT_DIR$/akka-http-server-side-api/project" />
+            <option value="$PROJECT_DIR$/akka-remoting" />
+            <option value="$PROJECT_DIR$/akka-remoting/project" />
+            <option value="$PROJECT_DIR$/akka-streams" />
+            <option value="$PROJECT_DIR$/akka-streams/project" />
+            <option value="$PROJECT_DIR$/balancing-workload" />
+            <option value="$PROJECT_DIR$/balancing-workload/project" />
+            <option value="$PROJECT_DIR$/graph-flows" />
+            <option value="$PROJECT_DIR$/graph-flows/project" />
+            <option value="$PROJECT_DIR$/hello-akka" />
+            <option value="$PROJECT_DIR$/hello-akka/project" />
+            <option value="$PROJECT_DIR$/hotswap-behavior" />
+            <option value="$PROJECT_DIR$/hotswap-behavior/project" />
+            <option value="$PROJECT_DIR$/multi-node-testing" />
+            <option value="$PROJECT_DIR$/multi-node-testing/project" />
+            <option value="$PROJECT_DIR$/ordered-termination" />
+            <option value="$PROJECT_DIR$/ordered-termination/project" />
+            <option value="$PROJECT_DIR$/persistence" />
+            <option value="$PROJECT_DIR$/persistence/project" />
+            <option value="$PROJECT_DIR$/persistent-fsm&amp;query" />
+            <option value="$PROJECT_DIR$/persistent-fsm&amp;query/project" />
+            <option value="$PROJECT_DIR$/playing-with-actors" />
+            <option value="$PROJECT_DIR$/playing-with-actors/project" />
+            <option value="$PROJECT_DIR$/project" />
+            <option value="$PROJECT_DIR$/reactive-tweets" />
+            <option value="$PROJECT_DIR$/reactive-tweets/project" />
+            <option value="$PROJECT_DIR$/rest-api" />
+            <option value="$PROJECT_DIR$/rest-api/project" />
+            <option value="$PROJECT_DIR$/routing" />
+            <option value="$PROJECT_DIR$/routing/project" />
+            <option value="$PROJECT_DIR$/scheduler-messages" />
+            <option value="$PROJECT_DIR$/scheduler-messages/project" />
+            <option value="$PROJECT_DIR$/shutdown-pattern" />
+            <option value="$PROJECT_DIR$/shutdown-pattern/project" />
+            <option value="$PROJECT_DIR$/stream-io" />
+            <option value="$PROJECT_DIR$/stream-io/project" />
+            <option value="$PROJECT_DIR$/stream-test" />
+            <option value="$PROJECT_DIR$/stream-test/project" />
+            <option value="$PROJECT_DIR$/test-FSM" />
+            <option value="$PROJECT_DIR$/test-FSM/project" />
+            <option value="$PROJECT_DIR$/testing-actors" />
+            <option value="$PROJECT_DIR$/testing-actors/project" />
+            <option value="$PROJECT_DIR$/testing-parent-child" />
+            <option value="$PROJECT_DIR$/testing-parent-child/project" />
+            <option value="$PROJECT_DIR$/throttler-messages" />
+            <option value="$PROJECT_DIR$/throttler-messages/project" />
+          </set>
+        </option>
+        <option name="resolveClassifiers" value="false" />
+        <option name="sbtVersion" value="0.13.8" />
+      </SbtProjectSettings>
+    </option>
+  </component>
+</project>
