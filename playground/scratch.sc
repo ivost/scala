@@ -48,3 +48,65 @@ A.foldLeft(0)((x, y) => x + y)
 // product
 A.foldLeft(1)(_ * _)
 
+val map = A.groupBy(_ % 2)
+// even
+map(0)
+// odd
+map(1)
+
+/*
+This implementation receives a Sudoku grid,
+represented as a 2-dimensional Array[Array[Int]].
+For each i from 0 to 9, we pick out a single row, column,
+and 3x3 square.
+It then checks that each such row/column/square
+has 9 unique numbers by calling .distinct to remove any duplicates,
+and then checking if the .length has changed as a result of that removal.
+
+ */
+def isValidSudoku(grid: Array[Array[Int]]): Boolean = {
+  !Range(0, 9).exists{i =>
+    val row = Range(0, 9).map(grid(i)(_))
+    val col = Range(0, 9).map(grid(_)(i))
+    val square = Range(0, 9).map(j => grid((i % 3) * 3 + j % 3)((i / 3) * 3 + j / 3))
+    row.distinct.length != row.length ||
+      col.distinct.length != col.length ||
+      square.distinct.length != square.length
+  }
+}
+
+A.to(Vector)
+A.to(Set)
+
+/*
+Using .view before the map/
+slice transformation operations defers the actual
+traversal and creation of a new collection until later,
+when we call .to to convert it back into a concrete collection type:
+ */
+
+A.map(_+1).filter(_%2==0).slice(1,3)
+
+A.view.map(_+1).filter(_%2==0).slice(1,3).to(Array)
+
+val v = Vector(1, 2, 3, 4, 5)
+val v1 = v.updated(2, 10)
+
+val v2 = v :+ 1
+val v3 = 4 +: v
+val v4 = v.tail
+v.head
+
+/*
+ArrayDeques are general-purpose mutable, linear collections
+that provide efficient O(1) indexed lookups,
+O(1) indexed updates, and O(1) insertion and removal
+at both left and right ends:
+ */
+val q = collection.mutable.ArrayDeque(1, 2, 3, 4, 5)
+
+q.removeHead()
+q.removeLast()
+q.append(7)
+
+
