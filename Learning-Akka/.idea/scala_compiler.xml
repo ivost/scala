@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ScalaCompilerConfiguration">
-    <profile name="SBT 1" modules="learning-akka,actor-paths,akka-cluster,httpClient,httpServer,akka-remoting,streams,balancingWorkload,graphFlow,hello-akka,hotswap-behavior,akka-sample-multi-node-scala,orderedTermination,persistence,persistence-fsm-query,playing-with-actors,reactiveTweets,restApi,routing,schedulerMessages,shutdownPattern,stream-io,stream-test,test-FSM,testing-actors,testing-parent-child,throttlerMessages" />
-  </component>
-</project>
