@@ -3,5 +3,6 @@
 target/
 *.log
 *.class
+log/
 
 
