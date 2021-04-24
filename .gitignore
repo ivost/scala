@@ -1,4 +1,7 @@
-*.class
+**/out/
+.idea/
+target/
 *.log
-**/target
-.idea
+*.class
+
+
