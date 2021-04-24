@@ -1,4 +1,4 @@
-package com.packt.courseware.l1
+package com.skyway
 
 import org.scalatest.FunSuite
 
