@@ -1,8 +1,4 @@
-
-
 val A = Array[Int](1, 2, 3,4,5)
-
-
 A.to(Vector)
 A.to(Set)
 
@@ -36,5 +32,57 @@ val q = collection.mutable.ArrayDeque(1, 2, 3, 4, 5)
 q.removeHead()
 q.removeLast()
 q.append(7)
+// currying
+def sum(x: Int)(y: Int) = x + y
+sum(2)(2)
+val sum2 = sum(2) _
+sum2(2)
+
+// by-name params
+var assertionsEnabled = true
+def myAssert(predicate: () => Boolean) =
+  if (assertionsEnabled && !predicate())
+    throw new AssertionError
+
+myAssert(() => 5 > 3)
+
+def byNameAssert(predicate: => Boolean) =
+  if (assertionsEnabled && !predicate)
+    throw new AssertionError
+
+byNameAssert(5 > 3)
+
+abstract class Element {
+  def contents: Array[String]
+
+  def height: Int = contents.length
+
+  def width: Int = if (height == 0) 0 else contents(0).length
+}
+
+class UniformElement(
+                      ch: Char,
+                      override val width: Int,
+                      override val height: Int
+                    ) extends Element {
+  private val line = ch.toString * width
+
+  def contents = Array.fill(height)(line)
+}
+
+/*
+Composition and inheritance are two ways to define a new class
+in terms of another existing class.
+If what you're after is primarily code reuse,
+you should in general prefer composition to inheritance.
+Only inheritance suffers from the fragile base class problem,
+in which you can inadvertently break subclasses
+by changing a superclass.
+ */
+
+
+
+
+
 
 
