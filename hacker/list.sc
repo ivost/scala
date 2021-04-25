@@ -45,7 +45,24 @@ require(oddPos(List(1, 2, 3)) == List(2))
 require(oddPos(List(1, 2, 3, 4)) == List(2, 4))
 require(oddPos(List(1, 2, 3, 4, 5)) == List(2, 4))
 
+// implement ::: - append list ys to list xs
+def append[T](xs: List[T], ys: List[T]): List[T] =
+  xs match {
+    case List() => ys
+    case x :: xs1 => x :: append(xs1, ys)
+  }
 
+//print(append(List(1,3), List(2)))
+require(append(List(1, 3), List(2, 4)) == List(1, 3, 2, 4))
+
+// implement reverse
+def rev[T](xs: List[T]): List[T] =
+  xs match {
+    case List() => xs
+    case x :: xs1 => rev(xs1) ::: List(x)
+  }
+
+require(rev(List(1, 2)) == List(2, 1))
 
 
 
