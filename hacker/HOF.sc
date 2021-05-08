@@ -29,4 +29,10 @@ val a = List(1, 2, 3)
 val even: Int => Boolean = (x: Int) => x % 2 == 0
 assert(find(a)(_ % 2 == 0) == Some(2))
 
+def compose[A, B, C](f: B => C, g: A => B): A => C =
+  a => f(g(a))
+
+val my = compose((x: Int) => x + x, (x: Int) => x * x)
+
+assert(my(5) == 50)
 
