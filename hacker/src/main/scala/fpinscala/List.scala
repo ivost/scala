@@ -1,6 +1,8 @@
 package fpinscala
 
-import fpinscala.List.{sum, tail}
+import fpinscala.List.{drop, dropWhile, sum, tail}
+
+import scala.annotation.tailrec
 
 // `List` data type, parameterized on a type, `A`
 sealed trait List[+A]
@@ -53,11 +55,20 @@ object List { // `List` companion object. Contains functions for creating and wo
     case Cons(x, xs) => xs
   }
 
-  def setHead[A](l: List[A], h: A): List[A] = ???
+  def setHead[A](l: List[A], h: A): List[A] = Cons(h, tail(l))
 
-  def drop[A](l: List[A], n: Int): List[A] = ???
+  @tailrec
+  def drop[A](l: List[A], n: Int): List[A] =
+    if (n <= 0) l else l match {
+      case Nil => Nil
+      case Cons(x, xs) => drop(xs, n - 1)
+    }
 
-  def dropWhile[A](l: List[A], f: A => Boolean): List[A] = ???
+  @tailrec
+  def dropWhile[A](l: List[A], f: A => Boolean): List[A] = l match {
+    case Nil => Nil
+    case Cons(x, xs) => if (!f(x)) l else dropWhile(xs, f)
+  }
 
   def init[A](l: List[A]): List[A] = ???
 
@@ -72,4 +83,14 @@ object Main extends App {
   val l = List(1, 2, 3)
   assert(sum(l) == 6)
   assert(tail(l) == List(2, 3))
+  assert(tail(List(1)) == Nil)
+  assert(tail(List()) == Nil)
+
+  assert(drop(l, 0) == l)
+  assert(drop(l, 1) == List(2, 3))
+  assert(drop(l, 3) == Nil)
+  assert(drop(l, 10) == Nil)
+  val d = dropWhile(List(1, 1, 1, 2, 3), (x: Int) => x == 1)
+  assert(d == List(2, 3))
+
 }
