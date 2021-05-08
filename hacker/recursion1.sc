@@ -52,7 +52,6 @@ def isSorted[A](as: Array[A], lt: (A, A) => Boolean): Boolean = {
     case _ => if (!lt(as(n), as(n + 1))) false
     else loop(n + 1)
   }
-
   loop(0)
 }
 //def lt(a: Int, b: Int) = a < b
