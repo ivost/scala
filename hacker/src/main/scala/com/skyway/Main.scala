@@ -10,9 +10,9 @@ object Hacker02 {
     f2(3)
     println(f3(a))
     */
-    val a = List(1, 2, 3, 4)
-    //val a = List(-3,-3,-3)
-    println(f1(a))
+    //val a = List(1, 2, 3, 4)
+    val a = List(-3, -3, -3)
+    println(f(a))
   }
 
   /*
@@ -22,14 +22,8 @@ object Hacker02 {
   1 2 3 4 5 -> 2 4
    */
 
-  def f0(arr: List[Int]): List[Int] =
+  def f1(arr: List[Int]): List[Int] =
     arr.zipWithIndex.filter(_._2 % 2 == 1).map(_._1)
-
-  // better
-  def f1[A](a: List[A]): List[A] = a match {
-    case x :: y :: xs => y :: f1(xs)
-    case _ => List()
-  }
 
   /*
   https://www.hackerrank.com/challenges/fp-array-of-n-elements/problem?h_r=next-challenge&h_v=zen
